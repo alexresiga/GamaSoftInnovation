@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html lang="ro">
+<head>
+<title>GamaSoft Innovation</title>
+<link rel="shortcut icon" href="favicon.ico">
+<meta charset="utf-8">
+<meta name="author" content="Alex Resiga">
+<meta name="description" content="Software & Hardware Solutions">
+<meta name="keywords" content="HTML, WebDesign, JavaScript, PC, Repara, Solutii, IT">
+<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+  <script>
+   $(function() {
+
+      $("#slideshow > div:gt(0)").hide();
+
+      setInterval(function() {
+        $('#slideshow > div:first')
+          .fadeOut(1000)
+          .next()
+          .fadeIn(1000)
+          .end()
+          .appendTo('#slideshow');
+      },  5000);
+
+    });
+  </script>
+</head>
+<body> 
+  
+    <div id="navbar" class="clearfix">
+      <div id="sigla"><img src="img/index/Sigla.jpg" title="Bine ati venit!"></div>
+    
+    <div id="list">
+      <ul>
+        <li class="none"><a href="ro/produse.html"> <h1>Oferta</h1> </a> </li>
+        <li><a href="ro/despre.html"> <h1>Despre Noi  </h1> </a></li>
+        <li><a href="ro/contact.html"> <h1>Contact  </h1> </a></li>
+      </ul> 
+      
+   </div>
+      </div>
+      <hr>
+    
+   <div id="slideshow">
+   <div>
+     <img src="img/index/cover.png" class="cover slide_poz">
+   </div>
+   <div>
+     <a href="ro/produse.html#hardware" class="nu"><img src="img/index/1.png" class="poster slide_poz"></a>
+   </div>
+   <div>
+    <a href="ro/produse.html#apps" class="nu"><img src="img/index/2.png" class="poster slide_poz"></a>
+   </div>
+   <div>
+    <a href="ro/produse.html#web" class="nu"><img src="img/index/3.png" class="poster slide_poz"></a>
+   </div>
+</div>
+
+
+    <div id="footer"> 
+     <a href="en/index-en.html"  id="link_en"><img id="buton_eng" src="img/index/en.png" title="English"></a>
+     Copyright © GamaSoft Innovation S.R.L 2016
+    </div>
+    <!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript">
+var sc_project=10836744; 
+var sc_invisible=1; 
+var sc_security="5cdab972"; 
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="shopify
+analytics tool" href="http://statcounter.com/shopify/"
+target="_blank"><img class="statcounter"
+src="http://c.statcounter.com/10836744/0/5cdab972/1/"
+alt="shopify analytics tool"></a></div></noscript>
+<!-- End of StatCounter Code for Default Guide -->
+</body>
+</html>
