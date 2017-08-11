@@ -1,0 +1,132 @@
+
+*{font-family:'Montserrat';}
+#sigla{
+  float:left;
+  width:200px;
+  height:110px;
+ border: 5px solid white;
+} 
+#sigla img {
+  height: inherit;
+  width: inherit;
+} 
+#navbar{
+  /*border:5px solid blue;*/
+  overflow-x: hidden;
+  overflow-y: hidden;
+  width:100%;  
+}
+.clearfix{
+  overflow: auto;
+} 
+#list {
+  position: absolute;
+  right: 0;
+  display: inline-block;
+  /*border: 5px solid red;*/
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: center;
+    background-color: none;
+    
+}
+
+ul>li {
+    background-color: none;
+    float: left;
+} 
+.none {
+  background-color: black;
+}
+
+a:link, a:visited {
+    display: block;
+    width: 270px;
+    font-weight: bold;
+    color: grey;
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: none;
+}
+
+a:hover, a:active {
+    background-color: #76c9c9;
+} 
+.nu:hover {
+background-color: #FFFFFF;
+}
+.cover {
+  width: 958px;
+  height: 320px;
+  
+}
+.poster {
+  width: 959px;
+  height: 350px;
+}
+.slide_poz {
+  border-style: none;
+  position: absolute;
+  top: 5%;
+    transform: translateY(-50%);
+    left: 50%;
+    transform: translateX(-50%);
+     box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+#slideshow {
+        margin: 0 auto 36px;
+        position: relative;
+        width: 90%;
+        height: 330px;
+        padding: 10px;
+    }
+
+    #slideshow > div {
+        position: absolute;
+        top: 5px;
+        left: 10px;
+        right: 10px;
+        bottom: 10px;
+    }
+#buton_eng {
+  position: absolute;
+  right: 10px;
+  width:35px;
+  height:35px;
+  bottom: 0;
+} 
+#buton_ro {
+  position: absolute;
+  right: 10px;
+  width:39px;
+  height:30px;
+} 
+#link_en {
+width: 25px;
+height: 25px;
+background-color: #009590;
+float: right;
+list-style-type: none;
+} 
+#link_ro {
+width: 29px;
+height: 25px;
+background-color: #009590;
+float: right;
+list-style-type: none;
+}
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 99%;
+  background-color:#009590;
+  vertical-align:middle;
+  text-align:center; 
+   line-height: 35px;
+}
